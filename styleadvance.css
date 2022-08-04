@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav ul li{
+    display:inline-flex;
+    justify-content: space-around;
+    margin-right: 10px;
+   
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+.rp{
+    display: flex;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.rp p{
+    text-transform: lowercase;
+    color:red;
+    font-size: 26px;
+    font-weight: lighter;
+    font-family: arial,sans-serif;
+}
+
+.container .definition{
+    margin-left:50px;
+    margin-top: 50px;
+    display: flex;  
+}
+.container table{
+    margin-top: 15px;
+    margin-left: 48px;
+}
